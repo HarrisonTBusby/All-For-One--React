@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.backgroundImg1{
+  background-image: url(./Assets/Background.jpg);
+  background-repeat: no-repeat;
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundImg2{
+  background-image: url(./Assets/Background2.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.backgroundImg3{
+  background-image: url(./Assets/Background3.jpg);
+  background-size: 250%;
+  background-repeat: no-repeat;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.backgroundImg4{
+  background-image: url(./Assets/Background4.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+.textBackground{
+  background-color: black !important;
+  color: #00FFF0 !important;
+  width: 600px;
+  height: 75px;
+  border-radius: 5px;
+  
+}
+
+.textBackground2{
+  background-color: black;
+  color: #00FFF0;
+  width: 600px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.textBackground3{
+  background-color: black;
+  color: #00FFF0;
+  width: 700px;
+  height:50px;
+  border-radius: 5px;
+}
+
+.textBackground4{
+  background-color: black;
+  color: #00FFF0;
+  width: 700px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.textBackground5{
+  background-color: black;
+  color: #00FFF0;
+  width: 1200px;
+  height: 400x;
+  border-radius: 5px;
+}
+
+.textBackground6{
+  background-color: black;
+  color: #00FFF0;
+  width: 300px;
+  height: 400x;
+  border-radius: 5px;
+
+}
+
+
+.btnBackground1{
+  background-color: black !important;
+  color: #00FFF0 !important;
+  font-size: 22px;
+  padding: 60px 0px !important;
+  border: none !important;
+}
+
+.btnBackground2{
+  background-color: black !important;
+  color: #00FFF0 !important;
+  padding: 10px 80px !important;
+  border: none !important;
+  font-size: 22px;
+  
+}
+
+.btnBackground3{
+  background-color: black !important;
+  color: #00FFF0 !important;
+  font-size: 22px;
+  padding: 20px 0px !important;
+  width: 150px;
+  margin-left: 50px;
+  border: none !important;
+}
+
+.btnBackground4{
+  background-color: black !important;
+  color: #00FFF0 !important;
+  font-size: 22px;
+  padding: 20px 0px !important;
+  width: 150px;
+  border: none !important;
+}
+
+.center{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alignRight{
+  display: flex;
+  justify-content: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.paddingBTWN{
+  padding: 50px;
+}
+
+.paddingBottom{
+  padding-bottom: 200px;
+}
+
+.paddingBottom2{
+  padding-bottom: 150px;
+}
+
+.paddingBottom3{
+  padding-bottom: 50px;
+}
+
+.paddingBottom4{
+
+  padding-bottom: 500px;
+}
+
+.paddingTop{
+padding-top: 100px;
+
+}
+
+.formWidth1{
+  width: 400px !important;
+  height: 80px;
 }
